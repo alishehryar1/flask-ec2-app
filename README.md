@@ -34,3 +34,10 @@ python app.py
 
 ![Flask EC2 App Screenshot](Homepage.png, About Page.png, Contact Page.png)
 
+## Contact
+
+
+
+- LinkedIn: https://www.linkedin.com/in/iamalishehryar/
+- GitHub: https://github.com/alishehryar1
+
