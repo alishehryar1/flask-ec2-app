@@ -30,3 +30,7 @@ pip install flask
 # Run the app
 python app.py
 
+## Screenshot
+
+![Flask EC2 App Screenshot](Homepage.png, About Page.png, Contact Page.png)
+
