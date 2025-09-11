@@ -1,43 +1,48 @@
-# Flask EC2 App 🚀
+# Flask EC2 App
 
-This is a simple **Flask web application** deployed on an **AWS EC2 instance**.  
+A simple Flask application deployed on **AWS EC2**.  
+This project demonstrates how to set up and run a Python web app in the cloud as part of my **Cloud Engineering + AI learning journey**.
 
-It demonstrates:
-- Flask basics (routes: Home, About, Contact)
-- Deployment on AWS EC2
-- GitHub version control
+---
 
-## 🌐 Routes
-- `/` → Home Page  
-- `/about` → About Page  
-- `/contact` → Contact Page  
+## 🚀 Features
+- Home, About, and Contact routes
+- Running on a cloud server (AWS EC2)
+- First step toward building and deploying full cloud-native applications
 
-## 🛠 Tech Stack
-- Python 3
-- Flask
-- AWS EC2 (Amazon Linux 2023)
-- Git + GitHub
+---
 
-## 🚀 How to Run
-```bash
-# Clone the repository
-git clone https://github.com/alishehryar1/flask-ec2-app.git
-cd flask-ec2-app
+## 🛠️ Tech Stack
+- **Python 3.9**
+- **Flask 3.x**
+- **AWS EC2 (Amazon Linux 2023)**
+- **Git & GitHub**
 
-# Install dependencies
-pip install flask
+---
 
-# Run the app
-python app.py
+## 🌍 Live Demo
+You can access the app by visiting:  
+👉 `http://54.90.196.70:5000/`  
+👉 `http://54.90.196.70:5000/about`  
+👉 `http://54.90.196.70:5000/contact`  
 
-## Screenshot
+---
 
-![Flask EC2 App Screenshot](Homepage.png, About Page.png, Contact Page.png)
+## 📂 Project Structure
 
-## Contact
+flask_project/
+│-- app.py # Main Flask app
+│-- README.md # Project documentation 
 
+---
 
+## 📬 Contact
+👤 **Ali Shehryar**  
+- GitHub: alishehryar1 - https://github.com/alishehryar1
+- Email: alishehryar11@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/iamalishehryar
 
-- LinkedIn: https://www.linkedin.com/in/iamalishehryar/
-- GitHub: https://github.com/alishehryar1
+---
+
+⭐ Don’t forget to give this repo a star if you like it!
 
