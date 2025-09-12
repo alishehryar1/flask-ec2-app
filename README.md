@@ -36,6 +36,14 @@ flask_project/
 
 ---
 
+## Deployment Progress  
+- ✅ Domain & SSL setup  
+- ✅ Cloudflare connected  
+- ✅ Nginx configured  
+- ✅ GitHub Actions + EC2 deploy working (Tested: 2025-09-12)
+
+---
+
 ## 📬 Contact
 👤 **Ali Shehryar**  
 - GitHub: alishehryar1 - https://github.com/alishehryar1
