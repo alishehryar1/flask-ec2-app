@@ -2,13 +2,11 @@ name: Deploy to EC2
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -19,6 +17,7 @@ jobs:
           host: 18.206.69.251
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
+          port: 22
           script: |
             cd ~/flask_project
             git pull origin main
