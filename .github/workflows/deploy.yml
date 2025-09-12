@@ -16,7 +16,7 @@ jobs:
         with:
           host: 18.206.69.251
           username: ec2-user
-          key: ${{ secrets.EC2_SSH_KEY }}
+          key: ${{ secrets.EC2_KEY }}
           port: 22
           script: |
             cd ~/flask_project
