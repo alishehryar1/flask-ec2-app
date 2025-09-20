@@ -1,65 +1,73 @@
-# Flask EC2 App
+# Flask EC2 Web App 🚀
 
-A simple Flask application deployed on AWS EC2.  
-This project demonstrates how to set up, automate, and run a Python web app in the cloud as part of my **Cloud Engineering + AI learning journey**.
-
----
-
-## 🚀 Features
-- Home, About, and Contact routes
-- Running on a cloud server (AWS EC2)
-- Automated deployment via **GitHub Actions**
-- Nginx configured as a reverse proxy
-- Cloudflare-managed domain and SSL
-- First step toward building fully cloud-native applications
+A modern Flask web application deployed on **AWS EC2**, demonstrating cloud deployment, automation, and integration with AI features as part of my **Cloud Engineering + AI** learning journey.
 
 ---
 
-## 🛠️ Tech Stack
-- Python 3.9
-- Flask 3.x
-- AWS EC2 (Amazon Linux 2023)
-- Nginx
-- Git & GitHub
-- GitHub Actions (CI/CD)
-- Cloudflare (Domain & SSL)
+## Features ✨
+- **Modern responsive UI** across all pages: Home, About, Contact, AI Sentiment Analysis.
+- **AI-powered sentiment analysis** using Hugging Face Transformers (`/ai` route).
+- **Cloud-ready deployment**: Hosted on AWS EC2 with Nginx reverse proxy.
+- **SSL-secured**: HTTPS with Cloudflare-managed domain and Let's Encrypt certificates.
+- **CI/CD automation** via GitHub Actions for seamless updates.
+- Fully prepared for **cloud-native applications** and scaling.
 
 ---
 
-## 🌍 Live Demo
-You can access the app by visiting:
-- Home: 👉 [https://alishehryar.com/](https://alishehryar.com/)
-- About: 👉 [https://alishehryar.com/about](https://alishehryar.com/about)
-- Contact: 👉 [https://alishehryar.com/contact](https://alishehryar.com/contact)
+## Tech Stack 🛠️
+- **Backend:** Python 3.9, Flask 3.x, Gunicorn  
+- **Frontend:** Bootstrap 5, Jinja2 templates  
+- **AI / Machine Learning:** Hugging Face Transformers (Sentiment Analysis)  
+- **Server:** AWS EC2 (Amazon Linux 2023)  
+- **Web Server:** Nginx (reverse proxy)  
+- **DevOps:** Git, GitHub, GitHub Actions  
+- **Domain & SSL:** Cloudflare, Let’s Encrypt  
 
 ---
 
-## 📂 Project Structure
-flask_project/
-│-- app.py # Main Flask application
-│-- README.md # Project documentation
-│-- .github/workflows/deploy.yml # GitHub Actions deployment workflow
-│-- requirements.txt # Python dependencies
-
+## Live Demo 🌍
+- **Home:** [https://alishehryar.com/](https://alishehryar.com/)  
+- **About:** [https://alishehryar.com/about](https://alishehryar.com/about)  
+- **Contact:** [https://alishehryar.com/contact](https://alishehryar.com/contact)  
+- **AI Sentiment Analysis:** [https://alishehryar.com/ai](https://alishehryar.com/ai)  
 
 ---
 
-## 🔄 Deployment Progress
-- ✅ Domain & SSL setup
-- ✅ Cloudflare connected
+## Project Structure 📂
+flask-ec2-app/
+├── app.py # Main Flask application
+├── templates/ # HTML templates
+│ ├── base.html
+│ ├── index.html
+│ ├── ai.html
+│ ├── about.html
+│ └── contact.html
+├── static/ # CSS, JS, and images
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── .github/workflows/
+└── deploy.yml # GitHub Actions deployment workflow
+
+---
+
+## Deployment Progress 🔄
+- ✅ Domain & SSL setup (Cloudflare + Let’s Encrypt)
 - ✅ Nginx configured as reverse proxy
-- ✅ GitHub Actions + EC2 deployment working
-- ✅ Tested automation by updating `README.md` (2025-09-12)
-- ✅ Next step: continuous updates and automated deployments
+- ✅ Gunicorn + systemd service for background deployment
+- ✅ GitHub Actions + EC2 deployment automated
+- ✅ Tested automation by updating README.md (2025-09-12)
+- ✅ Next step: continuous updates & advanced CI/CD improvements
 
 ---
 
-## 📬 Contact
-**Ali Shehryar**  
+Contact 📬
 
-- GitHub: [alishehryar1](https://github.com/alishehryar1)  
-- Email: alishehryar11@gmail.com  
-- LinkedIn: [iamalishehryar](https://www.linkedin.com/in/iamalishehryar)  
+Ali Shehryar
 
-⭐ Don’t forget to give this repo a star if you like it!
+GitHub: alishehryar1
 
+Email: alishehryar11@gmail.com
+
+LinkedIn: iamalishehryar
+
+⭐ If you like this project, give it a star on GitHub!
